@@ -1,0 +1,34 @@
+.counter-section {
+  height: 100vh;
+  background: var(--dark-blue);
+}
+
+.counter-section .counter {
+  background: var(--light-blue);
+  max-width: 400px;
+  padding: 2rem;
+}
+
+.counter-section .count {
+  width: 4rem;
+  height: 4rem;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  padding: 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.counter-section .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=counter.css.map */
